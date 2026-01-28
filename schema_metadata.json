@@ -1,0 +1,8063 @@
+{
+  "data_dir": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1",
+  "total_files": 56,
+  "generated_at": "2026-01-28T21:33:38.065691+00:00",
+  "files": [
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/F1_23_videogame_driver_ratings_dec2023.csv",
+      "rows": 20,
+      "columns": 13,
+      "memory_bytes": 5742,
+      "column_details": [
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Max Verstappen",
+            "Fernando Alonso",
+            "Lewis Hamilton"
+          ]
+        },
+        {
+          "name": "Nationality",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            "The Netherlands",
+            "Spain",
+            "England"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull Racing",
+            "Aston Martin",
+            "Mercedes"
+          ]
+        },
+        {
+          "name": "Age",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 13,
+          "examples": [
+            26,
+            42,
+            38
+          ]
+        },
+        {
+          "name": "Car Number",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            1,
+            14,
+            44
+          ]
+        },
+        {
+          "name": "RTG",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            96,
+            93,
+            92
+          ]
+        },
+        {
+          "name": "EXP",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            86,
+            99,
+            98
+          ]
+        },
+        {
+          "name": "RAC",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            98,
+            95,
+            95
+          ]
+        },
+        {
+          "name": "AWA",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 12,
+          "examples": [
+            84,
+            78,
+            84
+          ]
+        },
+        {
+          "name": "PAC",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 16,
+          "examples": [
+            98,
+            93,
+            91
+          ]
+        },
+        {
+          "name": "Contract Cost",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 7,
+          "examples": [
+            10500000,
+            4500000,
+            12000000
+          ]
+        },
+        {
+          "name": "Salary",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 7,
+          "examples": [
+            7000000,
+            3000000,
+            8000000
+          ]
+        },
+        {
+          "name": "Buyout",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 7,
+          "examples": [
+            3500000,
+            1500000,
+            4000000
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/F1_23_videogame_driver_ratings_initial.csv",
+      "rows": 20,
+      "columns": 13,
+      "memory_bytes": 5745,
+      "column_details": [
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Max Verstappen",
+            "Fernando Alonso",
+            "Lewis Hamilton"
+          ]
+        },
+        {
+          "name": "Nationality",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            "The Netherlands",
+            "Spain",
+            "England"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull Racing",
+            "Aston Martin",
+            "Mercedes"
+          ]
+        },
+        {
+          "name": "Age",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            25,
+            41,
+            38
+          ]
+        },
+        {
+          "name": "Car Number",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            1,
+            14,
+            44
+          ]
+        },
+        {
+          "name": "RTG",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            94,
+            92,
+            92
+          ]
+        },
+        {
+          "name": "EXP",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            84,
+            99,
+            97
+          ]
+        },
+        {
+          "name": "RAC",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 13,
+          "examples": [
+            97,
+            91,
+            94
+          ]
+        },
+        {
+          "name": "AWA",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            85,
+            78,
+            94
+          ]
+        },
+        {
+          "name": "PAC",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 12,
+          "examples": [
+            95,
+            93,
+            90
+          ]
+        },
+        {
+          "name": "Contract Cost",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 7,
+          "examples": [
+            10500000,
+            4500000,
+            12000000
+          ]
+        },
+        {
+          "name": "Salary",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 7,
+          "examples": [
+            7000000,
+            3000000,
+            8000000
+          ]
+        },
+        {
+          "name": "Buyout",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 7,
+          "examples": [
+            3500000,
+            1500000,
+            4000000
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2022season_calendar.csv",
+      "rows": 22,
+      "columns": 15,
+      "memory_bytes": 12753,
+      "column_details": [
+        {
+          "name": "Round",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Race Date",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "20/03/2022",
+            "27/03/2022",
+            "10/04/2022"
+          ]
+        },
+        {
+          "name": "GP Name",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Gulf Air Bahrain GP",
+            "STC Saudi Arabian GP",
+            "Heineken Australian GP"
+          ]
+        },
+        {
+          "name": "Country",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Bahrain",
+            "Saudi Arabia",
+            "Australia"
+          ]
+        },
+        {
+          "name": "City",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Sakhir",
+            "Jeddah",
+            "Melbourne"
+          ]
+        },
+        {
+          "name": "Circuit Name",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Bahrain International Circuit",
+            "Jeddah Corniche Circuit",
+            "Albert Park Circuit"
+          ]
+        },
+        {
+          "name": "First GP",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 19,
+          "examples": [
+            2004,
+            2021,
+            1996
+          ]
+        },
+        {
+          "name": "Number of Laps",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            57,
+            50,
+            58
+          ]
+        },
+        {
+          "name": "Circuit Length(km)",
+          "dtype": "float64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            5.412,
+            6.174,
+            5.278
+          ]
+        },
+        {
+          "name": "Race Distance(km)",
+          "dtype": "float64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            308.238,
+            308.45,
+            306.124
+          ]
+        },
+        {
+          "name": "Lap Record",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "1:31.447",
+            "1:30.774",
+            "1:20.260"
+          ]
+        },
+        {
+          "name": "Record Owner",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Pedro de la Rosa",
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ]
+        },
+        {
+          "name": "Record Year",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 7,
+          "examples": [
+            2005,
+            2021,
+            2022
+          ]
+        },
+        {
+          "name": "Turns",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            15,
+            27,
+            14
+          ]
+        },
+        {
+          "name": "DRS Zones",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 3,
+          "examples": [
+            3,
+            3,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2022season_driverOfTheDayVotes.csv",
+      "rows": 22,
+      "columns": 11,
+      "memory_bytes": 10255,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Bahrain",
+            "Saudi Arabia",
+            "Australia"
+          ]
+        },
+        {
+          "name": "1st Place",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            "Charles Leclerc",
+            "Charles Leclerc",
+            "Charles Leclerc"
+          ]
+        },
+        {
+          "name": "1st Place(%)",
+          "dtype": "float64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            28.3,
+            26.8,
+            19.7
+          ]
+        },
+        {
+          "name": "2nd Place",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 12,
+          "examples": [
+            "Kevin Magnussen",
+            "Max Verstappen",
+            "Sergio Perez"
+          ]
+        },
+        {
+          "name": "2nd Place(%)",
+          "dtype": "float64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            22.5,
+            14.5,
+            14.8
+          ]
+        },
+        {
+          "name": "3rd Place",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Max Verstappen",
+            "Lewis Hamilton",
+            "Daniel Ricciardo"
+          ]
+        },
+        {
+          "name": "3rd Place(%)",
+          "dtype": "float64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 19,
+          "examples": [
+            9.0,
+            10.1,
+            9.4
+          ]
+        },
+        {
+          "name": "4th Place",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            "Lewis Hamilton",
+            "Sergio Perez",
+            "George Russell"
+          ]
+        },
+        {
+          "name": "4th Place(%)",
+          "dtype": "float64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            5.1,
+            9.5,
+            9.3
+          ]
+        },
+        {
+          "name": "5th Place",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            "Guanyu Zhou",
+            "Kevin Magnussen",
+            "Alexander Albon"
+          ]
+        },
+        {
+          "name": "5th Place(%)",
+          "dtype": "float64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 18,
+          "examples": [
+            5.0,
+            7.5,
+            8.2
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2022season_drivers.csv",
+      "rows": 22,
+      "columns": 13,
+      "memory_bytes": 11446,
+      "column_details": [
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Max Verstappen",
+            "Charles Leclerc",
+            "Sergio Perez"
+          ]
+        },
+        {
+          "name": "Abbreviation",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "VER",
+            "LEC",
+            "PER"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            1,
+            16,
+            11
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull Racing",
+            "Ferrari",
+            "Red Bull Racing"
+          ]
+        },
+        {
+          "name": "Country",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            "Netherlands",
+            "Monaco",
+            "Mexico"
+          ]
+        },
+        {
+          "name": "Podiums",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            77,
+            24,
+            26
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "float64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            2011.5,
+            868.0,
+            1201.0
+          ]
+        },
+        {
+          "name": "Grands Prix Entered",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            163,
+            103,
+            236
+          ]
+        },
+        {
+          "name": "World Championships",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 4,
+          "examples": [
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Highest Race Finish",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 18,
+          "examples": [
+            "1(x35)",
+            "1(x5)",
+            "1(x4)"
+          ]
+        },
+        {
+          "name": "Highest Grid Position",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Date of Birth",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "30/09/1997",
+            "16/10/1997",
+            "26/01/1990"
+          ]
+        },
+        {
+          "name": "Place of Birth",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Hasselt,Belgium",
+            "Monte Carlo, Monaco",
+            "Guadalajara, Mexico"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2022season_qualifyingResults.csv",
+      "rows": 440,
+      "columns": 9,
+      "memory_bytes": 199217,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Bahrain",
+            "Bahrain",
+            "Bahrain"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            16,
+            1,
+            55
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Charles Leclerc",
+            "Max Verstappen",
+            "Carlos Sainz"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Ferrari",
+            "Red Bull Racing RBPT",
+            "Ferrari"
+          ]
+        },
+        {
+          "name": "Q1",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 433,
+          "examples": [
+            "1:31.471",
+            "1:31.785",
+            "1:31.567"
+          ]
+        },
+        {
+          "name": "Q2",
+          "dtype": "object",
+          "non_null": 328,
+          "nulls": 112,
+          "unique": 328,
+          "examples": [
+            "1:30.932",
+            "1:30.757",
+            "1:30.787"
+          ]
+        },
+        {
+          "name": "Q3",
+          "dtype": "object",
+          "non_null": 215,
+          "nulls": 225,
+          "unique": 213,
+          "examples": [
+            "1:30.558",
+            "1:30.681",
+            "1:30.687"
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 31,
+          "examples": [
+            15,
+            14,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2022season_raceResults.csv",
+      "rows": 440,
+      "columns": 11,
+      "memory_bytes": 213579,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Bahrain",
+            "Bahrain",
+            "Bahrain"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            16,
+            55,
+            44
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Charles Leclerc",
+            "Carlos Sainz",
+            "Lewis Hamilton"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Ferrari",
+            "Ferrari",
+            "Mercedes"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 55,
+          "examples": [
+            57,
+            57,
+            57
+          ]
+        },
+        {
+          "name": "Time/Retired",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 282,
+          "examples": [
+            "1:37:33.584",
+            "+5.598",
+            "+9.675"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            26,
+            18,
+            15
+          ]
+        },
+        {
+          "name": "+1 Pt",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 2,
+          "examples": [
+            "Yes",
+            "No",
+            "No"
+          ]
+        },
+        {
+          "name": "Fastest Lap",
+          "dtype": "object",
+          "non_null": 426,
+          "nulls": 14,
+          "unique": 423,
+          "examples": [
+            "1:34.570",
+            "1:35.740",
+            "1:36.228"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2022season_sprintRaceResults.csv",
+      "rows": 60,
+      "columns": 9,
+      "memory_bytes": 21941,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 3,
+          "examples": [
+            "Emilia Romagna",
+            "Emilia Romagna",
+            "Emilia Romagna"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            1,
+            16,
+            11
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Max Verstappen",
+            "Charles Leclerc",
+            "Sergio Perez"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull Racing RBPT",
+            "Ferrari",
+            "Red Bull Racing RBPT"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            1,
+            2,
+            7
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 5,
+          "examples": [
+            21,
+            21,
+            21
+          ]
+        },
+        {
+          "name": "Time/Retired",
+          "dtype": "object",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 58,
+          "examples": [
+            "30:39.567",
+            "+2.975",
+            "+4.721"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            8,
+            7,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2022season_teams.csv",
+      "rows": 10,
+      "columns": 12,
+      "memory_bytes": 6135,
+      "column_details": [
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull Racing",
+            "Ferrari",
+            "Mercedes"
+          ]
+        },
+        {
+          "name": "Full Team Name",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Oracle Red Bull Racing",
+            "Scuderia Ferrari",
+            "Mercedes-AMG Petronas F1 Team"
+          ]
+        },
+        {
+          "name": "Base",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Milton Keynes, United Kingdom",
+            "Maranello, Italy",
+            "Brackley, United Kingdom"
+          ]
+        },
+        {
+          "name": "Team Chief",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Christian Horner",
+            "Mattia Binotto",
+            "Toto Wolff"
+          ]
+        },
+        {
+          "name": "Technical Chief",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Pierre Wach\u00e9",
+            "Enrico Cardile / Enrico Gualtieri",
+            "Mike Elliott"
+          ]
+        },
+        {
+          "name": "Chassis",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "RB18",
+            "F1-75",
+            "W13"
+          ]
+        },
+        {
+          "name": "Power Unit",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 4,
+          "examples": [
+            "Red Bull Powertrains",
+            "Ferrari",
+            "Mercedes"
+          ]
+        },
+        {
+          "name": "First Team Entry",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            1997,
+            1950,
+            1970
+          ]
+        },
+        {
+          "name": "World Championships",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 6,
+          "examples": [
+            5,
+            16,
+            8
+          ]
+        },
+        {
+          "name": "Highest Race Finish",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            "1(x92)",
+            "1(x243)",
+            "1(x116)"
+          ]
+        },
+        {
+          "name": "Pole Positions",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 6,
+          "examples": [
+            81,
+            242,
+            128
+          ]
+        },
+        {
+          "name": "Fastest Laps",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            84,
+            258,
+            91
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2023season_calendar.csv",
+      "rows": 23,
+      "columns": 15,
+      "memory_bytes": 13292,
+      "column_details": [
+        {
+          "name": "Round",
+          "dtype": "int64",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Race Date",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 1,
+          "unique": 22,
+          "examples": [
+            "05/03/2023",
+            "19/03/2023",
+            "02/04/2023"
+          ]
+        },
+        {
+          "name": "GP Name",
+          "dtype": "object",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            "Gulf Air Bahrain GP",
+            "STC Saudi Arabian GP",
+            "Rolex Australian GP"
+          ]
+        },
+        {
+          "name": "Country",
+          "dtype": "object",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Bahrain",
+            "Saudi Arabia",
+            "Australia"
+          ]
+        },
+        {
+          "name": "City",
+          "dtype": "object",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            "Sakhir",
+            "Jeddah",
+            "Melbourne"
+          ]
+        },
+        {
+          "name": "Circuit Name",
+          "dtype": "object",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            "Bahrain International Circuit",
+            "Jeddah Corniche Circuit",
+            "Melbourne Grand Prix Circuit"
+          ]
+        },
+        {
+          "name": "First GP",
+          "dtype": "int64",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 19,
+          "examples": [
+            2004,
+            2021,
+            1996
+          ]
+        },
+        {
+          "name": "Number of Laps",
+          "dtype": "int64",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            57,
+            50,
+            58
+          ]
+        },
+        {
+          "name": "Circuit Length(km)",
+          "dtype": "float64",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            5.412,
+            6.174,
+            5.278
+          ]
+        },
+        {
+          "name": "Race Distance(km)",
+          "dtype": "float64",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            308.238,
+            308.45,
+            306.124
+          ]
+        },
+        {
+          "name": "Lap Record",
+          "dtype": "object",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            "1:31.447",
+            "1:30.734",
+            "1:20.235"
+          ]
+        },
+        {
+          "name": "Record Owner",
+          "dtype": "object",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            "Pedro de la Rosa",
+            "Lewis Hamilton",
+            "Sergio Perez"
+          ]
+        },
+        {
+          "name": "Record Year",
+          "dtype": "int64",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 7,
+          "examples": [
+            2005,
+            2021,
+            2023
+          ]
+        },
+        {
+          "name": "Turns",
+          "dtype": "int64",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            15,
+            27,
+            14
+          ]
+        },
+        {
+          "name": "DRS Zones",
+          "dtype": "int64",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 4,
+          "examples": [
+            3,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2023season_driverOfTheDayVotes.csv",
+      "rows": 22,
+      "columns": 11,
+      "memory_bytes": 10181,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Bahrain",
+            "Saudi Arabia",
+            "Australia"
+          ]
+        },
+        {
+          "name": "1st Place",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            "Fernando Alonso",
+            "Max Verstappen",
+            "Sergio Perez"
+          ]
+        },
+        {
+          "name": "1st Place(%)",
+          "dtype": "float64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            53.3,
+            26.3,
+            21.3
+          ]
+        },
+        {
+          "name": "2nd Place",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            "Pierre Gasly",
+            "Sergio Perez",
+            "Lewis Hamilton"
+          ]
+        },
+        {
+          "name": "2nd Place(%)",
+          "dtype": "float64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 19,
+          "examples": [
+            6.5,
+            19.8,
+            14.3
+          ]
+        },
+        {
+          "name": "3rd Place",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Max Verstappen",
+            "Fernando Alonso",
+            "Pierre Gasly"
+          ]
+        },
+        {
+          "name": "3rd Place(%)",
+          "dtype": "float64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 19,
+          "examples": [
+            6.3,
+            14.6,
+            10.3
+          ]
+        },
+        {
+          "name": "4th Place",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            "Lewis Hamilton",
+            "Charles Leclerc",
+            "Lando Norris"
+          ]
+        },
+        {
+          "name": "4th Place(%)",
+          "dtype": "float64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 19,
+          "examples": [
+            5.5,
+            7.2,
+            9.6
+          ]
+        },
+        {
+          "name": "5th Place",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            "Charles Leclerc",
+            "Lewis Hamilton",
+            "Carlos Sainz"
+          ]
+        },
+        {
+          "name": "5th Place(%)",
+          "dtype": "float64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 16,
+          "examples": [
+            4.4,
+            6.7,
+            9.0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2023season_drivers.csv",
+      "rows": 22,
+      "columns": 13,
+      "memory_bytes": 11449,
+      "column_details": [
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Max Verstappen",
+            "Sergio Perez",
+            "Lewis Hamilton"
+          ]
+        },
+        {
+          "name": "Abbreviation",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "VER",
+            "PER",
+            "HAM"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            1,
+            11,
+            44
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull Racing",
+            "Red Bull Racing",
+            "Mercedes"
+          ]
+        },
+        {
+          "name": "Country",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            "Netherlands",
+            "Mexico",
+            "United Kingdom"
+          ]
+        },
+        {
+          "name": "Podiums",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            98,
+            35,
+            197
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "float64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            2586.5,
+            1486.0,
+            4639.5
+          ]
+        },
+        {
+          "name": "Grands Prix Entered",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 19,
+          "examples": [
+            185,
+            258,
+            332
+          ]
+        },
+        {
+          "name": "World Championships",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 4,
+          "examples": [
+            3,
+            0,
+            7
+          ]
+        },
+        {
+          "name": "Highest Race Finish",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 18,
+          "examples": [
+            "1(x54)",
+            "1(x6)",
+            "1(x103)"
+          ]
+        },
+        {
+          "name": "Highest Grid Position",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Date of Birth",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "30/09/1997",
+            "26/01/1990",
+            "07/01/1985"
+          ]
+        },
+        {
+          "name": "Place of Birth",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Hasselt, Belgium",
+            "Guadalajara, Mexico",
+            "Stevenage, England"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2023season_qualifyingResults.csv",
+      "rows": 440,
+      "columns": 9,
+      "memory_bytes": 199659,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Bahrain",
+            "Bahrain",
+            "Bahrain"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            1,
+            11,
+            16
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Max Verstappen",
+            "Sergio Perez",
+            "Charles Leclerc"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull Racing Honda RBPT",
+            "Red Bull Racing Honda RBPT",
+            "Ferrari"
+          ]
+        },
+        {
+          "name": "Q1",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 432,
+          "examples": [
+            "1:31.295",
+            "1:31.479",
+            "1:31.094"
+          ]
+        },
+        {
+          "name": "Q2",
+          "dtype": "object",
+          "non_null": 329,
+          "nulls": 111,
+          "unique": 325,
+          "examples": [
+            "1:30.503",
+            "1:30.746",
+            "1:30.282"
+          ]
+        },
+        {
+          "name": "Q3",
+          "dtype": "object",
+          "non_null": 220,
+          "nulls": 220,
+          "unique": 214,
+          "examples": [
+            "1:29.708",
+            "1:29.846",
+            "1:30.000"
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 32,
+          "examples": [
+            15,
+            15,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2023season_raceResults.csv",
+      "rows": 440,
+      "columns": 11,
+      "memory_bytes": 213943,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Bahrain",
+            "Bahrain",
+            "Bahrain"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            1,
+            11,
+            14
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Max Verstappen",
+            "Sergio Perez",
+            "Fernando Alonso"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull Racing Honda RBPT",
+            "Red Bull Racing Honda RBPT",
+            "Aston Martin Aramco Mercedes"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 49,
+          "examples": [
+            57,
+            57,
+            57
+          ]
+        },
+        {
+          "name": "Time/Retired",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 310,
+          "examples": [
+            "1:33:56.736",
+            "+11.987",
+            "+38.637"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 18,
+          "examples": [
+            25,
+            18,
+            15
+          ]
+        },
+        {
+          "name": "Set Fastest Lap",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 2,
+          "examples": [
+            "No",
+            "No",
+            "No"
+          ]
+        },
+        {
+          "name": "Fastest Lap Time",
+          "dtype": "object",
+          "non_null": 427,
+          "nulls": 13,
+          "unique": 420,
+          "examples": [
+            "1:36.236",
+            "1:36.344",
+            "1:36.156"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2023season_sprintResults.csv",
+      "rows": 119,
+      "columns": 9,
+      "memory_bytes": 43372,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 119,
+          "nulls": 0,
+          "unique": 6,
+          "examples": [
+            "Azerbaijan",
+            "Azerbaijan",
+            "Azerbaijan"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 119,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 119,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            11,
+            16,
+            1
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 119,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Sergio Perez",
+            "Charles Leclerc",
+            "Max Verstappen"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 119,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            "Red Bull Racing Honda RBPT",
+            "Ferrari",
+            "Red Bull Racing Honda RBPT"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 119,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 119,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            17,
+            17,
+            17
+          ]
+        },
+        {
+          "name": "Time/Retired",
+          "dtype": "object",
+          "non_null": 119,
+          "nulls": 0,
+          "unique": 111,
+          "examples": [
+            "33:17.667",
+            "+4.463",
+            "+5.065"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 119,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            8,
+            7,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2023season_sprintShootoutResults.csv",
+      "rows": 120,
+      "columns": 9,
+      "memory_bytes": 54434,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 6,
+          "examples": [
+            "Azerbaijan",
+            "Azerbaijan",
+            "Azerbaijan"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            16,
+            11,
+            1
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Charles Leclerc",
+            "Sergio Perez",
+            "Max Verstappen"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Ferrari",
+            "Red Bull Racing Honda RBPT",
+            "Red Bull Racing Honda RBPT"
+          ]
+        },
+        {
+          "name": "SQ1",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 119,
+          "examples": [
+            "1:42.820",
+            "1:43.858",
+            "1:43.288"
+          ]
+        },
+        {
+          "name": "SQ2",
+          "dtype": "object",
+          "non_null": 87,
+          "nulls": 33,
+          "unique": 85,
+          "examples": [
+            "1:42.500",
+            "1:42.925",
+            "1:42.217"
+          ]
+        },
+        {
+          "name": "SQ3",
+          "dtype": "object",
+          "non_null": 59,
+          "nulls": 61,
+          "unique": 58,
+          "examples": [
+            "1:41.697",
+            "1:41.844",
+            "1:41.987"
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 18,
+          "examples": [
+            14,
+            15,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2023season_teams.csv",
+      "rows": 10,
+      "columns": 12,
+      "memory_bytes": 6102,
+      "column_details": [
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull Racing",
+            "Mercedes",
+            "Ferrari"
+          ]
+        },
+        {
+          "name": "Full Team Name",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Oracle Red Bull Racing",
+            "Mercedes-AMG Petronas F1 Team",
+            "Scuderia Ferrari"
+          ]
+        },
+        {
+          "name": "Base",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Milton Keynes, United Kingdom",
+            "Brackley, United Kingdom",
+            "Maranello, Italy"
+          ]
+        },
+        {
+          "name": "Team Chief",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Christain Horner",
+            "Toto Wolff",
+            "Fr\u00e9d\u00e9ric Vasseur"
+          ]
+        },
+        {
+          "name": "Technical Chief",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Pierre Wach\u00e9",
+            "James Allison",
+            "Enrico Cardile / Enrico Gualtieri"
+          ]
+        },
+        {
+          "name": "Chassis",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "RB19",
+            "W14",
+            "SF-23"
+          ]
+        },
+        {
+          "name": "Power Unit",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 4,
+          "examples": [
+            "Honda RBPT",
+            "Mercedes",
+            "Ferrari"
+          ]
+        },
+        {
+          "name": "First Team Entry",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            1997,
+            1970,
+            1950
+          ]
+        },
+        {
+          "name": "World Championships",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 6,
+          "examples": [
+            6,
+            8,
+            16
+          ]
+        },
+        {
+          "name": "Highest Race Finish",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            "1(x113)",
+            "1(x116)",
+            "1(x244)"
+          ]
+        },
+        {
+          "name": "Pole Positions",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 7,
+          "examples": [
+            95,
+            129,
+            249
+          ]
+        },
+        {
+          "name": "Fastest Laps",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            95,
+            96,
+            259
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2024season_calendar.csv",
+      "rows": 24,
+      "columns": 15,
+      "memory_bytes": 13885,
+      "column_details": [
+        {
+          "name": "Round",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Race Date",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "02/03/2024",
+            "09/03/2024",
+            "24/03/2024"
+          ]
+        },
+        {
+          "name": "GP Name",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Gulf Air Bahrain GP",
+            "STC Saudi Arabian GP",
+            "Rolex Australian GP"
+          ]
+        },
+        {
+          "name": "Country",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Bahrain",
+            "Saudi Arabia",
+            "Australia"
+          ]
+        },
+        {
+          "name": "City",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Sakhir",
+            "Jeddah",
+            "Melbourne"
+          ]
+        },
+        {
+          "name": "Circuit Name",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Bahrain International Circuit",
+            "Jeddah Corniche Circuit",
+            "Albert Park Grand Prix Circuit"
+          ]
+        },
+        {
+          "name": "First GP",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 19,
+          "examples": [
+            2004,
+            2021,
+            1996
+          ]
+        },
+        {
+          "name": "Number of Laps",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            57,
+            50,
+            58
+          ]
+        },
+        {
+          "name": "Circuit Length(km)",
+          "dtype": "float64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            5.412,
+            6.174,
+            5.278
+          ]
+        },
+        {
+          "name": "Race Distance(km)",
+          "dtype": "float64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            308.238,
+            308.45,
+            306.124
+          ]
+        },
+        {
+          "name": "Lap Record",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "1:31.447",
+            "1:30.734",
+            "1:19.813"
+          ]
+        },
+        {
+          "name": "Record Owner",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 12,
+          "examples": [
+            "Pedro de la Rosa",
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ]
+        },
+        {
+          "name": "Record Year",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            2005,
+            2021,
+            2024
+          ]
+        },
+        {
+          "name": "Turns",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            15,
+            27,
+            14
+          ]
+        },
+        {
+          "name": "DRS Zones",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 4,
+          "examples": [
+            3,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2024season_driverOfTheDayVotes.csv",
+      "rows": 24,
+      "columns": 11,
+      "memory_bytes": 11108,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Bahrain",
+            "Saudi Arabia",
+            "Australia"
+          ]
+        },
+        {
+          "name": "1st Place",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            "Carlos Sainz",
+            "Oliver Bearman",
+            "Carlos Sainz"
+          ]
+        },
+        {
+          "name": "1st Place(%)",
+          "dtype": "float64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            31.4,
+            48.3,
+            38.4
+          ]
+        },
+        {
+          "name": "2nd Place",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Max Verstappen",
+            "Lewis Hamilton",
+            "Lando Norris"
+          ]
+        },
+        {
+          "name": "2nd Place(%)",
+          "dtype": "float64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            13.3,
+            7.3,
+            11.6
+          ]
+        },
+        {
+          "name": "3rd Place",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            "Sergio Perez",
+            "Kevin Magnussen",
+            "Oscar Piastri"
+          ]
+        },
+        {
+          "name": "3rd Place(%)",
+          "dtype": "float64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            11.4,
+            6.7,
+            10.2
+          ]
+        },
+        {
+          "name": "4th Place",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Charles Leclerc",
+            "Sergio Perez",
+            "Charles Leclerc"
+          ]
+        },
+        {
+          "name": "4th Place(%)",
+          "dtype": "float64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 18,
+          "examples": [
+            8.0,
+            5.9,
+            8.7
+          ]
+        },
+        {
+          "name": "5th Place",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            "Lando Norris",
+            "Lando Norris",
+            "Max Verstappen"
+          ]
+        },
+        {
+          "name": "5th Place(%)",
+          "dtype": "float64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 19,
+          "examples": [
+            5.2,
+            5.2,
+            5.5
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2024season_drivers.csv",
+      "rows": 24,
+      "columns": 13,
+      "memory_bytes": 12435,
+      "column_details": [
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Max Verstappen",
+            "Lando Norris",
+            "Charles Leclerc"
+          ]
+        },
+        {
+          "name": "Abbreviation",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "VER",
+            "NOR",
+            "LEC"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            1,
+            4,
+            16
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull Racing",
+            "McLaren",
+            "Ferrari"
+          ]
+        },
+        {
+          "name": "Country",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            "Netherlands",
+            "United Kingdom",
+            "Monaco"
+          ]
+        },
+        {
+          "name": "Podiums",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            112,
+            26,
+            43
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "float64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            3023.5,
+            1007.0,
+            1430.0
+          ]
+        },
+        {
+          "name": "Grands Prix Entered",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            209,
+            128,
+            149
+          ]
+        },
+        {
+          "name": "World Championships",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 4,
+          "examples": [
+            4,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Highest Race Finish",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "1(x63)",
+            "1(x4)",
+            "1(x8)"
+          ]
+        },
+        {
+          "name": "Highest Grid Position",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Date of Birth",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "30/09/1997",
+            "13/11/1999",
+            "16/10/1997"
+          ]
+        },
+        {
+          "name": "Place of Birth",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Hasselt, Belgium",
+            "Bristol, England",
+            "Monte Carlo, Monaco"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2024season_qualifyingResults.csv",
+      "rows": 478,
+      "columns": 9,
+      "memory_bytes": 216614,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 478,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Bahrain",
+            "Bahrain",
+            "Bahrain"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 478,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 478,
+          "nulls": 0,
+          "unique": 25,
+          "examples": [
+            1,
+            16,
+            63
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 478,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Max Verstappen",
+            "Charles Leclerc",
+            "George Russell"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 478,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull Racing Honda RBPT",
+            "Ferrari",
+            "Mercedes"
+          ]
+        },
+        {
+          "name": "Q1",
+          "dtype": "object",
+          "non_null": 476,
+          "nulls": 2,
+          "unique": 469,
+          "examples": [
+            "1:30.031",
+            "1:30.243",
+            "1:30.350"
+          ]
+        },
+        {
+          "name": "Q2",
+          "dtype": "object",
+          "non_null": 358,
+          "nulls": 120,
+          "unique": 356,
+          "examples": [
+            "1:29.374",
+            "1:29.165",
+            "1:29.922"
+          ]
+        },
+        {
+          "name": "Q3",
+          "dtype": "object",
+          "non_null": 238,
+          "nulls": 240,
+          "unique": 235,
+          "examples": [
+            "1:29.179",
+            "1:29.407",
+            "1:29.485"
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 478,
+          "nulls": 0,
+          "unique": 31,
+          "examples": [
+            17,
+            19,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2024season_raceResults.csv",
+      "rows": 479,
+      "columns": 11,
+      "memory_bytes": 232624,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Bahrain",
+            "Bahrain",
+            "Bahrain"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 25,
+          "examples": [
+            1,
+            11,
+            55
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Max Verstappen",
+            "Sergio Perez",
+            "Carlos Sainz"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull Racing Honda RBPT",
+            "Red Bull Racing Honda RBPT",
+            "Ferrari"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            1,
+            5,
+            4
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 43,
+          "examples": [
+            57,
+            57,
+            57
+          ]
+        },
+        {
+          "name": "Time/Retired",
+          "dtype": "object",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 294,
+          "examples": [
+            "1:31:44.742",
+            "+22.457",
+            "+25.110"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 19,
+          "examples": [
+            26,
+            18,
+            15
+          ]
+        },
+        {
+          "name": "Set Fastest Lap",
+          "dtype": "object",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 2,
+          "examples": [
+            "Yes",
+            "No",
+            "No"
+          ]
+        },
+        {
+          "name": "Fastest Lap Time",
+          "dtype": "object",
+          "non_null": 463,
+          "nulls": 16,
+          "unique": 458,
+          "examples": [
+            "1:32.608",
+            "1:34.364",
+            "1:34.507"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2024season_sprintQualifyingResults.csv",
+      "rows": 120,
+      "columns": 9,
+      "memory_bytes": 48279,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 6,
+          "examples": [
+            "China",
+            "China",
+            "China"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "int64",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            4,
+            44,
+            14
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            "Lando Norris",
+            "Lewis Hamilton",
+            "Fernando Alonso"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "McLaren Mercedes",
+            "Mercedes",
+            "Aston Martin Aramco Mercedes"
+          ]
+        },
+        {
+          "name": "Q1",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 119,
+          "examples": [
+            "1:36.384",
+            "1:37.181",
+            "1:36.883"
+          ]
+        },
+        {
+          "name": "Q2",
+          "dtype": "object",
+          "non_null": 90,
+          "nulls": 30,
+          "unique": 86,
+          "examples": [
+            "1:36.047",
+            "1:36.287",
+            "1:36.119"
+          ]
+        },
+        {
+          "name": "Q3",
+          "dtype": "object",
+          "non_null": 60,
+          "nulls": 60,
+          "unique": 59,
+          "examples": [
+            "1:57.940",
+            "1:59.201",
+            "1:59.915"
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            13,
+            15,
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2024season_sprintResults.csv",
+      "rows": 120,
+      "columns": 9,
+      "memory_bytes": 43525,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 6,
+          "examples": [
+            "China",
+            "China",
+            "China"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            1,
+            44,
+            11
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            "Max Verstappen",
+            "Lewis Hamilton",
+            "Sergio Perez"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull Racing Honda RBPT",
+            "Mercedes",
+            "Red Bull Racing Honda RBPT"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            4,
+            2,
+            6
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 6,
+          "examples": [
+            19,
+            19,
+            19
+          ]
+        },
+        {
+          "name": "Time/Retired",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 117,
+          "examples": [
+            "32:04.660",
+            "+13.043",
+            "+15.258"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            8,
+            7,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2024season_teams.csv",
+      "rows": 10,
+      "columns": 12,
+      "memory_bytes": 6098,
+      "column_details": [
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "McLaren",
+            "Ferrari",
+            "Red Bull Racing"
+          ]
+        },
+        {
+          "name": "Full Team Name",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "McLaren Formula 1 Team",
+            "Scuderia Ferrari HP",
+            "Oracle Red Bull Racing"
+          ]
+        },
+        {
+          "name": "Base",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Woking, United Kingdom",
+            "Maranello, Italy",
+            "Milton Keynes, United Kingdom"
+          ]
+        },
+        {
+          "name": "Team Chief",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Andrea Stella",
+            "Fr\u00e9d\u00e9ric Vasseur",
+            "Christian Horner"
+          ]
+        },
+        {
+          "name": "Technical Chief",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Peter Prodromou / Neil Houldey",
+            "Loic Serra / Enrico Gualtieri",
+            "Pierre Wach\u00e9"
+          ]
+        },
+        {
+          "name": "Chassis",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "MCL38",
+            "SF-24",
+            "RB20"
+          ]
+        },
+        {
+          "name": "Power Unit",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 4,
+          "examples": [
+            "Mercedes",
+            "Ferrari",
+            "Honda RBPT"
+          ]
+        },
+        {
+          "name": "First Team Entry",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            1966,
+            1950,
+            1997
+          ]
+        },
+        {
+          "name": "World Championships",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 6,
+          "examples": [
+            9,
+            16,
+            6
+          ]
+        },
+        {
+          "name": "Highest Race Finish",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            "1(x189)",
+            "1(x249)",
+            "1(x122)"
+          ]
+        },
+        {
+          "name": "Pole Positions",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 7,
+          "examples": [
+            164,
+            253,
+            103
+          ]
+        },
+        {
+          "name": "Fastest Laps",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            172,
+            263,
+            99
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2025Season_Calendar.csv",
+      "rows": 24,
+      "columns": 15,
+      "memory_bytes": 13982,
+      "column_details": [
+        {
+          "name": "Round",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Race Date",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "16/03/2025",
+            "23/03/2025",
+            "06/04/2025"
+          ]
+        },
+        {
+          "name": "GP Name",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Louis Vuitton Australian Grand Prix",
+            "Heineken Chinese Grand Prix",
+            "Lenovo Japanese Grand Prix"
+          ]
+        },
+        {
+          "name": "Country",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Australia",
+            "China",
+            "Japan"
+          ]
+        },
+        {
+          "name": "City",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Melbourne",
+            "Shanghai",
+            "Suzuka"
+          ]
+        },
+        {
+          "name": "Circuit Name",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Albert Park Circuit",
+            "Shanghai International Circuit",
+            "Suzuka Circuit"
+          ]
+        },
+        {
+          "name": "First GP",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 19,
+          "examples": [
+            1996,
+            2004,
+            1987
+          ]
+        },
+        {
+          "name": "Number of Laps",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            58,
+            56,
+            53
+          ]
+        },
+        {
+          "name": "Circuit Length(km)",
+          "dtype": "float64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            5.278,
+            5.451,
+            5.807
+          ]
+        },
+        {
+          "name": "Race Distance(km)",
+          "dtype": "float64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            306.124,
+            305.066,
+            307.471
+          ]
+        },
+        {
+          "name": "Lap Record",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "1:19.813",
+            "1:32.238",
+            "1:30.965"
+          ]
+        },
+        {
+          "name": "Record Owner",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            "Charles Leclerc",
+            "Michael Schumacter",
+            "Kimi Antonelli"
+          ]
+        },
+        {
+          "name": "Record Year",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            2024,
+            2004,
+            2025
+          ]
+        },
+        {
+          "name": "Turns",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            14,
+            16,
+            18
+          ]
+        },
+        {
+          "name": "DRS Zones",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 4,
+          "examples": [
+            4,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2025Season_DriverOfTheDayVotes.csv",
+      "rows": 24,
+      "columns": 12,
+      "memory_bytes": 11312,
+      "column_details": [
+        {
+          "name": "Round",
+          "dtype": "int64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Australia",
+            "China",
+            "Japan"
+          ]
+        },
+        {
+          "name": "1st Place",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 13,
+          "examples": [
+            "Lando Norris",
+            "Kimi Antonelli",
+            "Yuki Tsunoda"
+          ]
+        },
+        {
+          "name": "1st Place(%)",
+          "dtype": "float64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            24.0,
+            20.7,
+            23.7
+          ]
+        },
+        {
+          "name": "2nd Place",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            "Kimi Antonelli",
+            "Oscar Piastri",
+            "Max Verstappen"
+          ]
+        },
+        {
+          "name": "2nd Place(%)",
+          "dtype": "float64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            16.1,
+            15.6,
+            19.7
+          ]
+        },
+        {
+          "name": "3rd Place",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            "Oscar Piastri",
+            "Oliver Bearman",
+            "Kimi Antonelli"
+          ]
+        },
+        {
+          "name": "3rd Place(%)",
+          "dtype": "float64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            11.3,
+            12.9,
+            13.6
+          ]
+        },
+        {
+          "name": "4th Place",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            "Alexander Albon",
+            "Charles Leclerc",
+            "Oscar Piastri"
+          ]
+        },
+        {
+          "name": "4th Place(%)",
+          "dtype": "float64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            10.9,
+            8.4,
+            7.9
+          ]
+        },
+        {
+          "name": "5th Place",
+          "dtype": "object",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 13,
+          "examples": [
+            "Max Verstappen",
+            "Max Verstappen",
+            "Isack Hadjar"
+          ]
+        },
+        {
+          "name": "5th Place(%)",
+          "dtype": "float64",
+          "non_null": 24,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            9.0,
+            6.5,
+            7.0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2025Season_Drivers.csv",
+      "rows": 21,
+      "columns": 15,
+      "memory_bytes": 12432,
+      "column_details": [
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Lando Norris",
+            "Oscar Piastri",
+            "George Russell"
+          ]
+        },
+        {
+          "name": "Abbreviation",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "NOR",
+            "PIA",
+            "RUS"
+          ]
+        },
+        {
+          "name": "Race Number",
+          "dtype": "int64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            4,
+            81,
+            63
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "McLaren",
+            "McLaren",
+            "Mercedes"
+          ]
+        },
+        {
+          "name": "Country",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            "United Kingdom",
+            "Australia",
+            "United Kingdom"
+          ]
+        },
+        {
+          "name": "Grand Prix Entered",
+          "dtype": "int64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 18,
+          "examples": [
+            152,
+            70,
+            152
+          ]
+        },
+        {
+          "name": "Career Points",
+          "dtype": "float64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            1430.0,
+            799.0,
+            1033.0
+          ]
+        },
+        {
+          "name": "Highest Race Finish",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 18,
+          "examples": [
+            "1(x11)",
+            "1(x9)",
+            "1(x5)"
+          ]
+        },
+        {
+          "name": "Podiums",
+          "dtype": "int64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            44,
+            26,
+            24
+          ]
+        },
+        {
+          "name": "Highest Grid Position",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            "1(x16)",
+            "1(x6)",
+            "1(x8)"
+          ]
+        },
+        {
+          "name": "Pole Positions",
+          "dtype": "int64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            16,
+            6,
+            7
+          ]
+        },
+        {
+          "name": "World Championships",
+          "dtype": "int64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 5,
+          "examples": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "DNFs",
+          "dtype": "int64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 18,
+          "examples": [
+            13,
+            4,
+            19
+          ]
+        },
+        {
+          "name": "Date of Birth",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "13/11/1999",
+            "06/04/2001",
+            "15/02/1998"
+          ]
+        },
+        {
+          "name": "Place of Birth",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Bristol, England",
+            "Melbourne, Victoria",
+            "King's Lynn, England"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2025Season_QualifyingResults.csv",
+      "rows": 479,
+      "columns": 9,
+      "memory_bytes": 217497,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Australia",
+            "Australia",
+            "Australia"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            4,
+            81,
+            1
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Lando Norris",
+            "Oscar Piastri",
+            "Max Verstappen"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 13,
+          "examples": [
+            "McLaren Mercedes",
+            "McLaren Mercedes",
+            "Red Bull Racing Honda RBPT"
+          ]
+        },
+        {
+          "name": "Q1",
+          "dtype": "object",
+          "non_null": 476,
+          "nulls": 3,
+          "unique": 470,
+          "examples": [
+            "1:15.912",
+            "1:16.062",
+            "1:16.018"
+          ]
+        },
+        {
+          "name": "Q2",
+          "dtype": "object",
+          "non_null": 357,
+          "nulls": 122,
+          "unique": 352,
+          "examples": [
+            "1:15.415",
+            "1:15.468",
+            "1:15.565"
+          ]
+        },
+        {
+          "name": "Q3",
+          "dtype": "object",
+          "non_null": 240,
+          "nulls": 239,
+          "unique": 235,
+          "examples": [
+            "1:15.096",
+            "1:15.180",
+            "1:15.481"
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 32,
+          "examples": [
+            20,
+            18,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2025Season_RaceResults.csv",
+      "rows": 479,
+      "columns": 11,
+      "memory_bytes": 233108,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Australia",
+            "Australia",
+            "Australia"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            4,
+            1,
+            63
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Lando Norris",
+            "Max Verstappen",
+            "George Russell"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            "McLaren Mercedes",
+            "Red Bull Racing Honda RBPT",
+            "Mercedes"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 52,
+          "examples": [
+            57,
+            57,
+            57
+          ]
+        },
+        {
+          "name": "Time/Retired",
+          "dtype": "object",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 335,
+          "examples": [
+            "1:42:06.304",
+            "+0.895",
+            "+8.481"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            25,
+            18,
+            15
+          ]
+        },
+        {
+          "name": "Set Fastest Lap",
+          "dtype": "object",
+          "non_null": 479,
+          "nulls": 0,
+          "unique": 2,
+          "examples": [
+            "Yes",
+            "No",
+            "No"
+          ]
+        },
+        {
+          "name": "Fastest Lap Time",
+          "dtype": "object",
+          "non_null": 463,
+          "nulls": 16,
+          "unique": 459,
+          "examples": [
+            "1:22.167",
+            "1:23.081",
+            "1:25.065"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2025Season_SprintQualifyingResults.csv",
+      "rows": 120,
+      "columns": 9,
+      "memory_bytes": 54467,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 6,
+          "examples": [
+            "China",
+            "China",
+            "China"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            44,
+            1,
+            81
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Lewis Hamilton",
+            "Max Verstappen",
+            "Oscar Piastri"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 13,
+          "examples": [
+            "Ferrari",
+            "Red Bull Racing Honda RBPT",
+            "McLaren Mercedes"
+          ]
+        },
+        {
+          "name": "Q1",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 119,
+          "examples": [
+            "1:31.212",
+            "1:31.916",
+            "1:31.723"
+          ]
+        },
+        {
+          "name": "Q2",
+          "dtype": "object",
+          "non_null": 90,
+          "nulls": 30,
+          "unique": 88,
+          "examples": [
+            "1:31.484",
+            "1:31.521",
+            "1:31.362"
+          ]
+        },
+        {
+          "name": "Q3",
+          "dtype": "object",
+          "non_null": 60,
+          "nulls": 60,
+          "unique": 60,
+          "examples": [
+            "1:30.849",
+            "1:30.867",
+            "1:30.929"
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 16,
+          "examples": [
+            15,
+            12,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2025Season_SprintResults.csv",
+      "rows": 120,
+      "columns": 9,
+      "memory_bytes": 43600,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 6,
+          "examples": [
+            "China",
+            "China",
+            "China"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            44,
+            81,
+            1
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Lewis Hamilton",
+            "Oscar Piastri",
+            "Max Verstappen"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Ferrari",
+            "McLaren Mercedes",
+            "Red Bull Racing Honda RBPT"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            19,
+            19,
+            19
+          ]
+        },
+        {
+          "name": "Time/Retired",
+          "dtype": "object",
+          "non_null": 120,
+          "nulls": 0,
+          "unique": 109,
+          "examples": [
+            "30:39.965",
+            "+6.889",
+            "+9.804"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "float64",
+          "non_null": 118,
+          "nulls": 2,
+          "unique": 9,
+          "examples": [
+            8.0,
+            7.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/Formula1_2025Season_Teams.csv",
+      "rows": 10,
+      "columns": 15,
+      "memory_bytes": 6949,
+      "column_details": [
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "McLaren",
+            "Mercedes",
+            "Red Bull Racing"
+          ]
+        },
+        {
+          "name": "Full Team Name",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "McLaren Formula 1 Team",
+            "Mercedes-AMG Petronas Formula One Team",
+            "Oracle Red Bull Racing"
+          ]
+        },
+        {
+          "name": "Base",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Woking, United Kingdom",
+            "Brackley, United Kingdom",
+            "Milton Keynes, United Kingdom"
+          ]
+        },
+        {
+          "name": "Team Chief",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Andrea Stella",
+            "Toto Wolff",
+            "Laurent Mekies"
+          ]
+        },
+        {
+          "name": "Technical Chief",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Peter Prodromou / Neil Houldey",
+            "James Allison",
+            "Pierre Wach\u00e9"
+          ]
+        },
+        {
+          "name": "Chassis",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "MCL39",
+            "W16",
+            "RB21"
+          ]
+        },
+        {
+          "name": "Power Unit",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 4,
+          "examples": [
+            "Mercedes",
+            "Mercedes",
+            "Honda RBPT"
+          ]
+        },
+        {
+          "name": "First Team Entry",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            1966,
+            1970,
+            1997
+          ]
+        },
+        {
+          "name": "Grand Prix Entered",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            995,
+            329,
+            418
+          ]
+        },
+        {
+          "name": "Team Points",
+          "dtype": "float64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            7783.5,
+            8159.5,
+            8288.0
+          ]
+        },
+        {
+          "name": "Highest Race Finish",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            "1(x203)",
+            "1(x122)",
+            "1(x130)"
+          ]
+        },
+        {
+          "name": "Podiums",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            445,
+            201,
+            233
+          ]
+        },
+        {
+          "name": "Highest Grid Position",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            "1(x177)",
+            "1(x136)",
+            "1(x111)"
+          ]
+        },
+        {
+          "name": "Pole Positions",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 7,
+          "examples": [
+            177,
+            135,
+            111
+          ]
+        },
+        {
+          "name": "World Championships",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 7,
+          "examples": [
+            10,
+            8,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/PreviousSeasons/Formula1_2013season_raceResults.csv",
+      "rows": 418,
+      "columns": 10,
+      "memory_bytes": 178649,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 418,
+          "nulls": 0,
+          "unique": 19,
+          "examples": [
+            "Australia",
+            "Australia",
+            "Australia"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 418,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 418,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            7,
+            3,
+            1
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 418,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            "Kimi Raikk\u00f6nen",
+            "Fernando Alonso",
+            "Sebastian Vettel"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 418,
+          "nulls": 0,
+          "unique": 12,
+          "examples": [
+            "Lotus Renault",
+            "Ferrari",
+            "Red Bull Racing Renault"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 418,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            7,
+            5,
+            1
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 418,
+          "nulls": 0,
+          "unique": 53,
+          "examples": [
+            58,
+            58,
+            58
+          ]
+        },
+        {
+          "name": "Time/Retired",
+          "dtype": "object",
+          "non_null": 418,
+          "nulls": 0,
+          "unique": 248,
+          "examples": [
+            "1:30:03.225",
+            "+12.451",
+            "+22.346"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 418,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            25,
+            18,
+            15
+          ]
+        },
+        {
+          "name": "Fastest Lap",
+          "dtype": "object",
+          "non_null": 410,
+          "nulls": 8,
+          "unique": 409,
+          "examples": [
+            "1:29.274",
+            "1:29.560",
+            "1:30.409"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/PreviousSeasons/Formula1_2014season_raceResults.csv",
+      "rows": 407,
+      "columns": 10,
+      "memory_bytes": 172937,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 407,
+          "nulls": 0,
+          "unique": 19,
+          "examples": [
+            "Australia",
+            "Australia",
+            "Australia"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 407,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            "1",
+            "EX",
+            "2"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 407,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            6,
+            3,
+            20
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 407,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Nico Rosberg",
+            "Daniel Ricciardo",
+            "Kevin Magnussen"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 407,
+          "nulls": 0,
+          "unique": 12,
+          "examples": [
+            "Mercedes",
+            "Red Bull Racing Renault",
+            "McLaren Mercedes"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 407,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 407,
+          "nulls": 0,
+          "unique": 58,
+          "examples": [
+            57,
+            57,
+            57
+          ]
+        },
+        {
+          "name": "Time/Retired",
+          "dtype": "object",
+          "non_null": 407,
+          "nulls": 0,
+          "unique": 207,
+          "examples": [
+            "1:32:58.710",
+            "+24.525",
+            "+26.777"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 407,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            25,
+            0,
+            18
+          ]
+        },
+        {
+          "name": "Fastest Lap",
+          "dtype": "object",
+          "non_null": 370,
+          "nulls": 37,
+          "unique": 367,
+          "examples": [
+            "1:32.478",
+            "1:33.066",
+            "1:32.917"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/PreviousSeasons/Formula1_2015season_raceResults.csv",
+      "rows": 376,
+      "columns": 10,
+      "memory_bytes": 159937,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 376,
+          "nulls": 0,
+          "unique": 19,
+          "examples": [
+            "Australia",
+            "Australia",
+            "Australia"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 376,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 376,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            44,
+            6,
+            5
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 376,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Lewis Hamilton",
+            "Nico Rosberg",
+            "Sebastian Vettel"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 376,
+          "nulls": 0,
+          "unique": 12,
+          "examples": [
+            "Mercedes",
+            "Mercedes",
+            "Ferrari"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 376,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 376,
+          "nulls": 0,
+          "unique": 56,
+          "examples": [
+            58,
+            58,
+            58
+          ]
+        },
+        {
+          "name": "Time/Retired",
+          "dtype": "object",
+          "non_null": 376,
+          "nulls": 0,
+          "unique": 178,
+          "examples": [
+            "1:31:54.067",
+            "+1.360",
+            "+34.523"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 376,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            25,
+            18,
+            15
+          ]
+        },
+        {
+          "name": "Fastest Lap",
+          "dtype": "object",
+          "non_null": 354,
+          "nulls": 22,
+          "unique": 352,
+          "examples": [
+            "1:30.945",
+            "1:31.092",
+            "1:31.457"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/PreviousSeasons/Formula1_2016Season_RaceResults.csv",
+      "rows": 462,
+      "columns": 10,
+      "memory_bytes": 196586,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 462,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Australia",
+            "Australia",
+            "Australia"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 462,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 462,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            6,
+            44,
+            5
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 462,
+          "nulls": 0,
+          "unique": 24,
+          "examples": [
+            "Nico Rosberg",
+            "Lewis Hamilton",
+            "Sebastian Vettel"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 462,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            "Mercedes",
+            "Mercedes",
+            "Ferrari"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 462,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 462,
+          "nulls": 0,
+          "unique": 64,
+          "examples": [
+            57,
+            57,
+            57
+          ]
+        },
+        {
+          "name": "Time/Retired",
+          "dtype": "object",
+          "non_null": 462,
+          "nulls": 0,
+          "unique": 207,
+          "examples": [
+            "1:48:15.565",
+            "+8.060",
+            "+9.643"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 462,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            25,
+            18,
+            15
+          ]
+        },
+        {
+          "name": "Fastest Lap",
+          "dtype": "object",
+          "non_null": 444,
+          "nulls": 18,
+          "unique": 442,
+          "examples": [
+            "1:30.557",
+            "1:30.646",
+            "1:29.951"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/PreviousSeasons/Formula1_2017Season_RaceResults.csv",
+      "rows": 400,
+      "columns": 10,
+      "memory_bytes": 169850,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 400,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Australia",
+            "Australia",
+            "Australia"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 400,
+          "nulls": 0,
+          "unique": 19,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 400,
+          "nulls": 0,
+          "unique": 26,
+          "examples": [
+            5,
+            44,
+            77
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 400,
+          "nulls": 0,
+          "unique": 26,
+          "examples": [
+            "Sebastian Vettel",
+            "Lewis Hamilton",
+            "Valtteri Bottas"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 400,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Ferrari",
+            "Mercedes",
+            "Mercedes"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 400,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 400,
+          "nulls": 0,
+          "unique": 57,
+          "examples": [
+            57,
+            57,
+            57
+          ]
+        },
+        {
+          "name": "Time/Retired",
+          "dtype": "object",
+          "non_null": 400,
+          "nulls": 0,
+          "unique": 170,
+          "examples": [
+            "1:24:11.672",
+            "+9.975",
+            "+11.250"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 400,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            25,
+            18,
+            15
+          ]
+        },
+        {
+          "name": "Fastest Lap",
+          "dtype": "object",
+          "non_null": 376,
+          "nulls": 24,
+          "unique": 374,
+          "examples": [
+            "1:26.638",
+            "1:27.033",
+            "1:26.593"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/PreviousSeasons/Formula1_2018Season_RaceResults.csv",
+      "rows": 420,
+      "columns": 10,
+      "memory_bytes": 179312,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Australia",
+            "Australia",
+            "Australia"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            5,
+            44,
+            7
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Sebastian Vettel",
+            "Lewis Hamilton",
+            "Kimi Raikk\u00f6nen"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Ferrari",
+            "Mercedes",
+            "Ferrari"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 59,
+          "examples": [
+            58,
+            58,
+            58
+          ]
+        },
+        {
+          "name": "Time/Retired",
+          "dtype": "object",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 198,
+          "examples": [
+            "1:29:33.283",
+            "+5.036",
+            "+6.309"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            25,
+            18,
+            15
+          ]
+        },
+        {
+          "name": "Fastest Lap",
+          "dtype": "object",
+          "non_null": 399,
+          "nulls": 21,
+          "unique": 395,
+          "examples": [
+            "1:26.469",
+            "1:26.444",
+            "1:26.373"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/f1_2020_videogame_driver_ratings_initial.csv",
+      "rows": 20,
+      "columns": 10,
+      "memory_bytes": 4178,
+      "column_details": [
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull",
+            "Red Bull",
+            "Racing Point"
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Max Verstappen",
+            "Alexander Albon",
+            "Sergio Perez"
+          ]
+        },
+        {
+          "name": "Rating",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 13,
+          "examples": [
+            90,
+            79,
+            85
+          ]
+        },
+        {
+          "name": "Experience",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            68,
+            52,
+            78
+          ]
+        },
+        {
+          "name": "Race Craft",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            94,
+            87,
+            91
+          ]
+        },
+        {
+          "name": "Awareness",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            84,
+            78,
+            80
+          ]
+        },
+        {
+          "name": "Pace",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 13,
+          "examples": [
+            96,
+            83,
+            86
+          ]
+        },
+        {
+          "name": "Contract Cost",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            10500000,
+            6000000,
+            7500000
+          ]
+        },
+        {
+          "name": "Salary",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            7000000,
+            4000000,
+            5000000
+          ]
+        },
+        {
+          "name": "Buyout",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            3500000,
+            2000000,
+            2500000
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/f1_2020_videogame_driver_ratings_jan2021.csv",
+      "rows": 20,
+      "columns": 10,
+      "memory_bytes": 4178,
+      "column_details": [
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull",
+            "McLaren",
+            "Red Bull"
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Max Verstappen",
+            "Lando Norris",
+            "Alexander Albon"
+          ]
+        },
+        {
+          "name": "Rating",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            92,
+            84,
+            75
+          ]
+        },
+        {
+          "name": "Experience",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            68,
+            57,
+            57
+          ]
+        },
+        {
+          "name": "Racecraft",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 13,
+          "examples": [
+            94,
+            90,
+            86
+          ]
+        },
+        {
+          "name": "Awareness",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            97,
+            93,
+            66
+          ]
+        },
+        {
+          "name": "Pace",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            99,
+            83,
+            79
+          ]
+        },
+        {
+          "name": "Contract Cost",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            10500000,
+            6000000,
+            6000000
+          ]
+        },
+        {
+          "name": "Salary",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            7000000,
+            4000000,
+            4000000
+          ]
+        },
+        {
+          "name": "Buyout",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            3500000,
+            2000000,
+            2000000
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/f1_2020_videogame_driver_ratings_oct2020.csv",
+      "rows": 20,
+      "columns": 10,
+      "memory_bytes": 4178,
+      "column_details": [
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull",
+            "Red Bull",
+            "Racing Point"
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Max Verstappen",
+            "Alexander Albon",
+            "Sergio Perez"
+          ]
+        },
+        {
+          "name": "Rating",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            92,
+            75,
+            85
+          ]
+        },
+        {
+          "name": "Experience",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            67,
+            56,
+            79
+          ]
+        },
+        {
+          "name": "Race Craft",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            95,
+            88,
+            90
+          ]
+        },
+        {
+          "name": "Awareness",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            86,
+            65,
+            76
+          ]
+        },
+        {
+          "name": "Pace",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 16,
+          "examples": [
+            99,
+            78,
+            88
+          ]
+        },
+        {
+          "name": "Contract Cost",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            10500000,
+            6000000,
+            7500000
+          ]
+        },
+        {
+          "name": "Salary",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            7000000,
+            4000000,
+            5000000
+          ]
+        },
+        {
+          "name": "Buyout",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            3500000,
+            2000000,
+            2500000
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/f1_2021_videogame_driver_ratings_initial.csv",
+      "rows": 20,
+      "columns": 10,
+      "memory_bytes": 4197,
+      "column_details": [
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull",
+            "Mercedes-AMG Petronas",
+            "McLaren"
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Max Verstappen",
+            "Lewis Hamilton",
+            "Lando Norris"
+          ]
+        },
+        {
+          "name": "Rating",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            95,
+            95,
+            91
+          ]
+        },
+        {
+          "name": "Experience",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            69,
+            92,
+            60
+          ]
+        },
+        {
+          "name": "Racecraft",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            96,
+            94,
+            96
+          ]
+        },
+        {
+          "name": "Awareness",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 12,
+          "examples": [
+            96,
+            89,
+            99
+          ]
+        },
+        {
+          "name": "Pace",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            97,
+            98,
+            89
+          ]
+        },
+        {
+          "name": "Contract Cost",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            9000000,
+            19500000,
+            4500000
+          ]
+        },
+        {
+          "name": "Salary",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            6000000,
+            13000000,
+            3000000
+          ]
+        },
+        {
+          "name": "Buyout",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            3000000,
+            6500000,
+            1500000
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/f1_2021_videogame_driver_ratings_jan2022.csv",
+      "rows": 20,
+      "columns": 10,
+      "memory_bytes": 4197,
+      "column_details": [
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull",
+            "Mercedes-AMG Petronas",
+            "McLaren"
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Max Verstappen",
+            "Lewis Hamilton",
+            "Lando Norris"
+          ]
+        },
+        {
+          "name": "Rating",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 13,
+          "examples": [
+            93,
+            94,
+            89
+          ]
+        },
+        {
+          "name": "Experience",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            72,
+            94,
+            63
+          ]
+        },
+        {
+          "name": "Racecraft",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            96,
+            94,
+            92
+          ]
+        },
+        {
+          "name": "Awareness",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            82,
+            85,
+            86
+          ]
+        },
+        {
+          "name": "Pace",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            99,
+            98,
+            93
+          ]
+        },
+        {
+          "name": "Contract Cost",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            9000000,
+            19500000,
+            4500000
+          ]
+        },
+        {
+          "name": "Salary",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            6000000,
+            13000000,
+            3000000
+          ]
+        },
+        {
+          "name": "Buyout",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            3000000,
+            6500000,
+            1500000
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/f1_22_videogame_driver_ratings_initial.csv",
+      "rows": 20,
+      "columns": 12,
+      "memory_bytes": 5593,
+      "column_details": [
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull Racing",
+            "Mercedes",
+            "Alfa Romeo"
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Max Verstappen",
+            "Lewis Hamilton",
+            "Valtteri Bottas"
+          ]
+        },
+        {
+          "name": "Rank",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Nationality",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            "Netherlands",
+            "England",
+            "Finland"
+          ]
+        },
+        {
+          "name": "Rating",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            94,
+            94,
+            88
+          ]
+        },
+        {
+          "name": "Experience",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            72,
+            93,
+            77
+          ]
+        },
+        {
+          "name": "Racecraft",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 12,
+          "examples": [
+            98,
+            96,
+            84
+          ]
+        },
+        {
+          "name": "Awareness",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            79,
+            92,
+            93
+          ]
+        },
+        {
+          "name": "Pace",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 16,
+          "examples": [
+            97,
+            93,
+            90
+          ]
+        },
+        {
+          "name": "Contract Cost",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            10500000,
+            15000000,
+            9000000
+          ]
+        },
+        {
+          "name": "Salary",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            7000000,
+            10000000,
+            6000000
+          ]
+        },
+        {
+          "name": "Buyout",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            3500000,
+            5000000,
+            3000000
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/formula1_2019season_drivers.csv",
+      "rows": 20,
+      "columns": 12,
+      "memory_bytes": 9240,
+      "column_details": [
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Lewis Hamilton",
+            "Valtteri Bottas",
+            "Max Verstappen"
+          ]
+        },
+        {
+          "name": "Number",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            44,
+            77,
+            33
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Mercedes",
+            "Mercedes",
+            "Red Bull Racing"
+          ]
+        },
+        {
+          "name": "Country",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            "United Kingdom",
+            "Finland",
+            "Netherlands"
+          ]
+        },
+        {
+          "name": "Podiums",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 12,
+          "examples": [
+            151,
+            45,
+            31
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            3431,
+            1289,
+            948
+          ]
+        },
+        {
+          "name": "Grands Prix Entered",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            250,
+            140,
+            102
+          ]
+        },
+        {
+          "name": "World Championships",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 4,
+          "examples": [
+            6,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Highest Race Finish",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            "1(x84)",
+            "1(x7)",
+            "1(x8)"
+          ]
+        },
+        {
+          "name": "Highest Grid Position",
+          "dtype": "int64",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 6,
+          "examples": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Date of Birth",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "07/07/1985",
+            "28/08/1989",
+            "30/09/1997"
+          ]
+        },
+        {
+          "name": "Place of Birth",
+          "dtype": "object",
+          "non_null": 20,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Stevenage, England",
+            "Nastola, Finland",
+            "Hasselt, Belgium"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/formula1_2019season_raceResults.csv",
+      "rows": 420,
+      "columns": 10,
+      "memory_bytes": 177953,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Australia",
+            "Australia",
+            "Australia"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            77,
+            44,
+            33
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Valtteri Bottas",
+            "Lewis Hamilton",
+            "Max Verstappen"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Mercedes",
+            "Mercedes",
+            "Red Bull Racing Honda"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            2,
+            1,
+            4
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 50,
+          "examples": [
+            58,
+            58,
+            58
+          ]
+        },
+        {
+          "name": "Total Time/Gap/Retirement",
+          "dtype": "object",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 200,
+          "examples": [
+            "1:25:27.325",
+            "+20.886",
+            "+22.520"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            26,
+            18,
+            15
+          ]
+        },
+        {
+          "name": "Fastest Lap",
+          "dtype": "object",
+          "non_null": 420,
+          "nulls": 0,
+          "unique": 2,
+          "examples": [
+            "Yes",
+            "No",
+            "No"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/formula1_2019season_tracks.csv",
+      "rows": 21,
+      "columns": 13,
+      "memory_bytes": 10117,
+      "column_details": [
+        {
+          "name": "Country",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Australia",
+            "Bahrain",
+            "China"
+          ]
+        },
+        {
+          "name": "City",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Melbourne",
+            "Sakhir",
+            "Shanghai"
+          ]
+        },
+        {
+          "name": "Circuit Name",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Albert Park Circuit",
+            "Bahrain International Circuit",
+            "Shanghai International Circuit"
+          ]
+        },
+        {
+          "name": "Date",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "17 Mar 2019",
+            "31 Mar 2019",
+            "14 Apr 2019"
+          ]
+        },
+        {
+          "name": "First Grand Prix",
+          "dtype": "int64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 16,
+          "examples": [
+            1996,
+            2004,
+            2004
+          ]
+        },
+        {
+          "name": "Number of Laps",
+          "dtype": "int64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            58,
+            57,
+            56
+          ]
+        },
+        {
+          "name": "Circuit Length",
+          "dtype": "float64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            5.303,
+            5.412,
+            5.451
+          ]
+        },
+        {
+          "name": "Race Distance",
+          "dtype": "float64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            307.574,
+            308.238,
+            305.066
+          ]
+        },
+        {
+          "name": "Lap Record",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "1:24.125",
+            "1:31.447",
+            "1:32.238"
+          ]
+        },
+        {
+          "name": "Record Owner",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            "Michael Schumacher",
+            "Pedro de la Rosa",
+            "Michael Schumacher"
+          ]
+        },
+        {
+          "name": "Record Year",
+          "dtype": "int64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 4,
+          "examples": [
+            2004,
+            2005,
+            2004
+          ]
+        },
+        {
+          "name": "Turns",
+          "dtype": "int64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            16,
+            15,
+            16
+          ]
+        },
+        {
+          "name": "DRS Zones",
+          "dtype": "int64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 3,
+          "examples": [
+            3,
+            3,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/formula1_2020season_calendar.csv",
+      "rows": 17,
+      "columns": 15,
+      "memory_bytes": 9331,
+      "column_details": [
+        {
+          "name": "Round",
+          "dtype": "int64",
+          "non_null": 17,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Country",
+          "dtype": "object",
+          "non_null": 17,
+          "nulls": 0,
+          "unique": 12,
+          "examples": [
+            "Austria",
+            "Austria",
+            "Hungary"
+          ]
+        },
+        {
+          "name": "City",
+          "dtype": "object",
+          "non_null": 17,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            "Spielberg",
+            "Spielberg",
+            "Budapest"
+          ]
+        },
+        {
+          "name": "Circuit Name",
+          "dtype": "object",
+          "non_null": 17,
+          "nulls": 0,
+          "unique": 16,
+          "examples": [
+            "Red Bull Ring",
+            "Red Bull Ring",
+            "Hungaroring"
+          ]
+        },
+        {
+          "name": "GP Name",
+          "dtype": "object",
+          "non_null": 17,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            "Austria",
+            "Styria",
+            "Hungary"
+          ]
+        },
+        {
+          "name": "Race Date",
+          "dtype": "object",
+          "non_null": 17,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            "5 Jul 2020",
+            "12 Jul 2020",
+            "19 Jul 2020"
+          ]
+        },
+        {
+          "name": "First GP",
+          "dtype": "int64",
+          "non_null": 17,
+          "nulls": 0,
+          "unique": 11,
+          "examples": [
+            1970,
+            1970,
+            1986
+          ]
+        },
+        {
+          "name": "Number of Laps",
+          "dtype": "int64",
+          "non_null": 17,
+          "nulls": 0,
+          "unique": 13,
+          "examples": [
+            71,
+            71,
+            70
+          ]
+        },
+        {
+          "name": "Circuit Length(km)",
+          "dtype": "float64",
+          "non_null": 17,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            4.318,
+            4.318,
+            4.381
+          ]
+        },
+        {
+          "name": "Race Distance(km)",
+          "dtype": "float64",
+          "non_null": 17,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            306.452,
+            306.452,
+            306.63
+          ]
+        },
+        {
+          "name": "Lap Record",
+          "dtype": "object",
+          "non_null": 17,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            "1:05.619",
+            "1:05.619",
+            "1:17.103"
+          ]
+        },
+        {
+          "name": "Record Owner",
+          "dtype": "object",
+          "non_null": 17,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            "Carlos Sainz",
+            "Carlos Sainz",
+            "Max Verstappen"
+          ]
+        },
+        {
+          "name": "Record Year",
+          "dtype": "int64",
+          "non_null": 17,
+          "nulls": 0,
+          "unique": 5,
+          "examples": [
+            2020,
+            2020,
+            2019
+          ]
+        },
+        {
+          "name": "Turns",
+          "dtype": "int64",
+          "non_null": 17,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            10,
+            10,
+            14
+          ]
+        },
+        {
+          "name": "DRS Zones",
+          "dtype": "int64",
+          "non_null": 17,
+          "nulls": 0,
+          "unique": 3,
+          "examples": [
+            3,
+            3,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/formula1_2020season_drivers.csv",
+      "rows": 23,
+      "columns": 13,
+      "memory_bytes": 11828,
+      "column_details": [
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            "Lewis Hamilton",
+            "Valtteri Bottas",
+            "Max Verstappen"
+          ]
+        },
+        {
+          "name": "Abbreviation",
+          "dtype": "object",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            "HAM",
+            "BOT",
+            "VER"
+          ]
+        },
+        {
+          "name": "Number",
+          "dtype": "int64",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            44,
+            77,
+            33
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Mercedes",
+            "Mercedes",
+            "Red Bull Racing"
+          ]
+        },
+        {
+          "name": "Country",
+          "dtype": "object",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 15,
+          "examples": [
+            "United Kingdom",
+            "Finland",
+            "Netherlands"
+          ]
+        },
+        {
+          "name": "Podiums",
+          "dtype": "int64",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 12,
+          "examples": [
+            165,
+            56,
+            42
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            3778,
+            1512,
+            1162
+          ]
+        },
+        {
+          "name": "Grands Prix Entered",
+          "dtype": "int64",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            266,
+            157,
+            119
+          ]
+        },
+        {
+          "name": "World Championships",
+          "dtype": "int64",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 4,
+          "examples": [
+            7,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Highest Race Finish",
+          "dtype": "object",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 19,
+          "examples": [
+            "1(x95)",
+            "1(x9)",
+            "1(x10)"
+          ]
+        },
+        {
+          "name": "Highest Grid Position",
+          "dtype": "int64",
+          "non_null": 23,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Date of Birth",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 2,
+          "unique": 21,
+          "examples": [
+            "07/01/1985",
+            "28/08/1989",
+            "30/09/1997"
+          ]
+        },
+        {
+          "name": "Place of Birth",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 2,
+          "unique": 20,
+          "examples": [
+            "Stevenage, England",
+            "Nastola, Finland",
+            "Hasselt, Belgium"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/formula1_2020season_raceResults.csv",
+      "rows": 340,
+      "columns": 10,
+      "memory_bytes": 143966,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 340,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            "Austria",
+            "Austria",
+            "Austria"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 340,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 340,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            77,
+            16,
+            4
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 340,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            "Valtteri Bottas",
+            "Charles Leclerc",
+            "Lando Norris"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 340,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Mercedes",
+            "Ferrari",
+            "McLaren Renault"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 340,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            1,
+            7,
+            3
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 340,
+          "nulls": 0,
+          "unique": 48,
+          "examples": [
+            71,
+            71,
+            71
+          ]
+        },
+        {
+          "name": "Total Time/Gap/Retirement",
+          "dtype": "object",
+          "non_null": 340,
+          "nulls": 0,
+          "unique": 196,
+          "examples": [
+            "1:30:55.739",
+            "+2.700",
+            "+5.491"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 340,
+          "nulls": 0,
+          "unique": 18,
+          "examples": [
+            25,
+            18,
+            16
+          ]
+        },
+        {
+          "name": "Fastest Lap",
+          "dtype": "object",
+          "non_null": 340,
+          "nulls": 0,
+          "unique": 2,
+          "examples": [
+            "No",
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/formula1_2021season_calendar.csv",
+      "rows": 22,
+      "columns": 15,
+      "memory_bytes": 12115,
+      "column_details": [
+        {
+          "name": "Round",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Country",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Bahrain",
+            "Italy",
+            "Portugal"
+          ]
+        },
+        {
+          "name": "City",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Sakhir",
+            "Imola",
+            "Portimao"
+          ]
+        },
+        {
+          "name": "Circuit Name",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Bahrain International Circuit",
+            "Autodromo Enzo e Dino Ferrari",
+            "Autodromo Internacional do Algarve"
+          ]
+        },
+        {
+          "name": "GP Name",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Bahrain",
+            "Emilia Romagna",
+            "Portugal"
+          ]
+        },
+        {
+          "name": "Race Date",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "28 Mar 2021",
+            "18 Apr 2021",
+            "02 May 2021"
+          ]
+        },
+        {
+          "name": "First GP",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            2004,
+            1980,
+            2020
+          ]
+        },
+        {
+          "name": "Number of Laps",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            57,
+            63,
+            66
+          ]
+        },
+        {
+          "name": "Circuit Length(km)",
+          "dtype": "float64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            5.412,
+            4.909,
+            4.653
+          ]
+        },
+        {
+          "name": "Race Distance(km)",
+          "dtype": "float64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            308.238,
+            309.049,
+            306.826
+          ]
+        },
+        {
+          "name": "Lap Record",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "1:31.447",
+            "1:15.484",
+            "1:18.750"
+          ]
+        },
+        {
+          "name": "Record Owner",
+          "dtype": "object",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Pedro de la Rosa",
+            "Lewis Hamilton",
+            "Lewis Hamilton"
+          ]
+        },
+        {
+          "name": "Record Year",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 6,
+          "examples": [
+            2005,
+            2020,
+            2020
+          ]
+        },
+        {
+          "name": "Turns",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            15,
+            19,
+            15
+          ]
+        },
+        {
+          "name": "DRS Zones",
+          "dtype": "int64",
+          "non_null": 22,
+          "nulls": 0,
+          "unique": 3,
+          "examples": [
+            3,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/formula1_2021season_drivers.csv",
+      "rows": 21,
+      "columns": 13,
+      "memory_bytes": 10935,
+      "column_details": [
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Lewis Hamilton",
+            "Valtteri Bottas",
+            "Max Verstappen"
+          ]
+        },
+        {
+          "name": "Abbreviation",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "HAM",
+            "BOT",
+            "VER"
+          ]
+        },
+        {
+          "name": "Number",
+          "dtype": "int64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            44,
+            77,
+            33
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Mercedes",
+            "Mercedes",
+            "Red Bull Racing"
+          ]
+        },
+        {
+          "name": "Country",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 14,
+          "examples": [
+            "United Kingdom",
+            "Finland",
+            "Netherlands"
+          ]
+        },
+        {
+          "name": "Podiums",
+          "dtype": "int64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 16,
+          "examples": [
+            182,
+            67,
+            60
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "float64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            4165.5,
+            1738.0,
+            1557.5
+          ]
+        },
+        {
+          "name": "Grands Prix Entered",
+          "dtype": "int64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 18,
+          "examples": [
+            288,
+            178,
+            141
+          ]
+        },
+        {
+          "name": "World Championships",
+          "dtype": "int64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 5,
+          "examples": [
+            7,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Highest Race Finish",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 17,
+          "examples": [
+            "1(x103)",
+            "1(x10)",
+            "1(x20)"
+          ]
+        },
+        {
+          "name": "Highest Grid Position",
+          "dtype": "int64",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 7,
+          "examples": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Date of Birth",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "07/01/1985",
+            "28/08/1989",
+            "30/09/1997"
+          ]
+        },
+        {
+          "name": "Place of Birth",
+          "dtype": "object",
+          "non_null": 21,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            "Stevenage, England",
+            "Nastola, Finland",
+            "Hasselt, Belgium"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/formula1_2021season_raceResults.csv",
+      "rows": 440,
+      "columns": 11,
+      "memory_bytes": 213773,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "Bahrain",
+            "Bahrain",
+            "Bahrain"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 22,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            44,
+            33,
+            77
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Lewis Hamilton",
+            "Max Verstappen",
+            "Valtteri Bottas"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Mercedes",
+            "Red Bull Racing Honda",
+            "Mercedes"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "float64",
+          "non_null": 439,
+          "nulls": 1,
+          "unique": 20,
+          "examples": [
+            2.0,
+            1.0,
+            3.0
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 44,
+          "examples": [
+            56,
+            56,
+            56
+          ]
+        },
+        {
+          "name": "Time/Retired",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 223,
+          "examples": [
+            "1:32:03.897",
+            "+0.745",
+            "+37.383"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "float64",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 23,
+          "examples": [
+            25.0,
+            18.0,
+            16.0
+          ]
+        },
+        {
+          "name": "+1 Pt",
+          "dtype": "object",
+          "non_null": 440,
+          "nulls": 0,
+          "unique": 2,
+          "examples": [
+            "No",
+            "No",
+            "Yes"
+          ]
+        },
+        {
+          "name": "Fastest Lap",
+          "dtype": "object",
+          "non_null": 403,
+          "nulls": 37,
+          "unique": 399,
+          "examples": [
+            "1:34.015",
+            "1:33.228",
+            "1:32.090"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/formula1_2021season_sprintQualifyingResults.csv",
+      "rows": 60,
+      "columns": 9,
+      "memory_bytes": 21997,
+      "column_details": [
+        {
+          "name": "Track",
+          "dtype": "object",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 3,
+          "examples": [
+            "Great Britain",
+            "Great Britain",
+            "Great Britain"
+          ]
+        },
+        {
+          "name": "Position",
+          "dtype": "object",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "No",
+          "dtype": "int64",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            33,
+            44,
+            77
+          ]
+        },
+        {
+          "name": "Driver",
+          "dtype": "object",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 21,
+          "examples": [
+            "Max Verstappen",
+            "Lewis Hamilton",
+            "Valtteri Bottas"
+          ]
+        },
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Red Bull Racing Honda",
+            "Mercedes",
+            "Mercedes"
+          ]
+        },
+        {
+          "name": "Starting Grid",
+          "dtype": "int64",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 20,
+          "examples": [
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "name": "Laps",
+          "dtype": "int64",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 5,
+          "examples": [
+            17,
+            17,
+            17
+          ]
+        },
+        {
+          "name": "Time/Retired",
+          "dtype": "object",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 59,
+          "examples": [
+            "25:38.426",
+            "+1.430",
+            "+7.502"
+          ]
+        },
+        {
+          "name": "Points",
+          "dtype": "int64",
+          "non_null": 60,
+          "nulls": 0,
+          "unique": 4,
+          "examples": [
+            3,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/shreyasnatarajan/Desktop/Personal_projects/Fromula1-DA/formula1/formula1_2021season_teams.csv",
+      "rows": 10,
+      "columns": 12,
+      "memory_bytes": 6125,
+      "column_details": [
+        {
+          "name": "Team",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Mercedes",
+            "Red Bull",
+            "Ferrari"
+          ]
+        },
+        {
+          "name": "Full Team Name",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Mercedes-AMG Petronas Formula One Team",
+            "Red Bull Racing",
+            "Scuderia Ferrari"
+          ]
+        },
+        {
+          "name": "Base",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Brackley, United Kingdom",
+            "Milton Keynes, United Kingdom",
+            "Maranello, Italy"
+          ]
+        },
+        {
+          "name": "Team Chief",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Toto Wolff",
+            "Christian Horner",
+            "Mattia Binotto"
+          ]
+        },
+        {
+          "name": "Technical Chief",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "Mike Elliott",
+            "Pierre Wach\u00e9",
+            "Enrico Cardile / Enrico Gualteri"
+          ]
+        },
+        {
+          "name": "Chassis",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            "W12",
+            "RB16B",
+            "SF21"
+          ]
+        },
+        {
+          "name": "Power Unit",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 4,
+          "examples": [
+            "Mercedes",
+            "Honda",
+            "Ferrari"
+          ]
+        },
+        {
+          "name": "First Team Entry",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 10,
+          "examples": [
+            1970,
+            1997,
+            1950
+          ]
+        },
+        {
+          "name": "World Championships",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 6,
+          "examples": [
+            8,
+            4,
+            16
+          ]
+        },
+        {
+          "name": "Highest Race Finish",
+          "dtype": "object",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            "1(x115)",
+            "1(x75)",
+            "1(x239)"
+          ]
+        },
+        {
+          "name": "Pole Positions",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 8,
+          "examples": [
+            127,
+            73,
+            223
+          ]
+        },
+        {
+          "name": "Fastest Laps",
+          "dtype": "int64",
+          "non_null": 10,
+          "nulls": 0,
+          "unique": 9,
+          "examples": [
+            85,
+            76,
+            253
+          ]
+        }
+      ]
+    }
+  ]
+}
