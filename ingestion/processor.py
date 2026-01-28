@@ -45,7 +45,8 @@ def merge_data(car_df: pd.DataFrame, laps_df: pd.DataFrame, weather_df: pd.DataF
         merged_df = pd.merge_asof(
             merged_df,
             weather_merge,
-            on='date',
+            left_on='date',
+            right_on='weather_date',
             direction='backward'
         )
         
