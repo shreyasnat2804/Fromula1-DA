@@ -39,6 +39,8 @@ def merge_data(car_df: pd.DataFrame, laps_df: pd.DataFrame, weather_df: pd.DataF
         w_cols = ['date', 'air_temperature', 'track_temperature', 'humidity', 'rainfall']
         w_cols = [c for c in w_cols if c in weather_df.columns]
         weather_merge = weather_df[w_cols]
+        # Rename weather date to preserve it
+        weather_merge = weather_merge.rename(columns={'date': 'weather_date'})
         
         merged_df = pd.merge_asof(
             merged_df,
@@ -46,6 +48,10 @@ def merge_data(car_df: pd.DataFrame, laps_df: pd.DataFrame, weather_df: pd.DataF
             on='date',
             direction='backward'
         )
+        
+        # Flag stale weather (> 5 mins = 300s)
+        merged_df['weather_age_sec'] = (merged_df['date'] - merged_df['weather_date']).dt.total_seconds()
+        merged_df['weather_stale'] = merged_df['weather_age_sec'] > 300
         
     return merged_df
 
@@ -59,8 +65,10 @@ def interpolate_missing(df: pd.DataFrame) -> pd.DataFrame:
     continuous_cols = [c for c in continuous_cols if c in df.columns]
     categorical_cols = [c for c in categorical_cols if c in df.columns]
     
+    # Interpolate continuous
+    # Limit to ~2 seconds (approx 8 samples at 4Hz) to avoid filling large gaps
     if continuous_cols:
-        df[continuous_cols] = df[continuous_cols].interpolate(method='linear', limit_direction='both')
+        df[continuous_cols] = df[continuous_cols].interpolate(method='linear', limit=8, limit_direction='both')
         
     if categorical_cols:
          df[categorical_cols] = df[categorical_cols].ffill()
